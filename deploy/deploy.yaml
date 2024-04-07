@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: todo
-        image: ard3dk/todoapp:0.1
+        image: ard3dk/todoapp:replaceImageTag
         ports:
         - containerPort: 8000
